@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vietnam & Japan 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-wordmark">Vietnam &amp; Japan · 2027</div>
+  <ul class="nav-links">
+    <li><a href="#itinerary">Itinerary</a></li>
+    <li><a href="#maps">Maps</a></li>
+    <li><a href="#rsvp">RSVP</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding:0;">
+  <div class="hero-text">
+    <div class="hero-eyebrow">Jenny's 30th Birthday · 2027</div>
+    <h1 class="hero-title">Vietnam<br>&amp; <em>Japan</em></h1>
+    <p class="hero-subtitle">Two countries. <br>Countless Adventures. <br> Asia-maxxing. <br> Delicious Food and Vibes</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <label>Dates</label>
+        <span>Mar 13-27 2027</span>
+      </div>
+      <div class="hero-meta-item">
+        <label>Duration</label>
+        <span>~2 Weeks</span>
+      </div>
+      <div class="hero-meta-item">
+        <label>Travelers</label>
+        <span>10–20 People</span>
+      </div>
+    </div>
+    <div class="hero-ctas">
+      <a href="#rsvp" class="btn btn-primary">RSVP Now</a>
+      <a href="#itinerary" class="btn btn-outline">View Itinerary</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-visual-grid">
+      <div class="hero-img-top"></div>
+      <div class="hero-img-bottom">
+        <div class="hero-img-bl"></div>
+        <div class="hero-img-br"></div>
+      </div>
+    </div>
+    <div class="hero-img-overlay">Private · Share Link Only</div>
+  </div>
+</section>
+
+<!-- OVERVIEW STRIP -->
+<div class="overview">
+  <div class="overview-item">
+    <div class="num">2</div>
+    <div class="unit">Countries</div>
+    <p>Vietnam &amp; Japan</p>
+  </div>
+  <div class="overview-item">
+    <div class="num">14</div>
+    <div class="unit">Days</div>
+    <p>Placeholder — update when finalized</p>
+  </div>
+  <div class="overview-item">
+    <div class="num">6</div>
+    <div class="unit">Cities</div>
+    <p>Hanoi, Hoi An, Ho Chi Minh City, Tokyo, Kyoto, Osaka</p>
+  </div>
+  <div class="overview-item">
+    <div class="num">∞</div>
+    <div class="unit">Memories</div>
+    <p>The kind you still talk about at 80</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ITINERARY -->
+<section class="itineraries" id="itinerary">
+  <div class="section-label">Day by Day</div>
+  <h2 class="section-title">The Itinerary</h2>
+  <p class="section-intro">A rough plan — details will fill in as we lock things down. Check back as dates and activities get confirmed.</p>
+
+  <div class="country-tabs">
+    <button class="tab-btn active" onclick="switchTab('vietnam')">🇻🇳 Vietnam</button>
+    <button class="tab-btn" onclick="switchTab('japan')">🇯🇵 Japan</button>
+  </div>
+
+  <!-- VIETNAM -->
+  <div class="tab-content active" id="tab-vietnam">
+    <div class="itinerary-grid">
+      <div class="day-nav" id="vn-day-nav">
+        <div class="day-nav-item active" onclick="switchDay('vn', 1)">
+          <div class="day-num">Day 1</div>
+          <div class="day-name">Arrival — Hanoi</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 2)">
+          <div class="day-num">Day 2</div>
+          <div class="day-name">Hanoi Old Quarter</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 3)">
+          <div class="day-num">Day 3</div>
+          <div class="day-name">Halong Bay</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 4)">
+          <div class="day-num">Day 4</div>
+          <div class="day-name">Halong Bay cont.</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 5)">
+          <div class="day-num">Day 5</div>
+          <div class="day-name">Fly to Hoi An</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 6)">
+          <div class="day-num">Day 6</div>
+          <div class="day-name">Hoi An Lanterns</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('vn', 7)">
+          <div class="day-num">Day 7</div>
+          <div class="day-name">Ho Chi Minh City</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="day-detail active" id="vn-day-1">
+          <div class="day-detail-header">
+            <div class="day-detail-date">01<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Arrival in Hanoi</div>
+              <div class="day-detail-location">📍 Nội Bài International Airport → Old Quarter</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Arrive &amp; Check In <span class="tag tag-travel">Travel</span></strong>
+                <p>Group gathers at hotel in the Old Quarter. [Hotel TBD] — placeholder, will update with confirmed accommodation. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Welcome Dinner <span class="tag tag-food">Food</span></strong>
+                <p>First meal together — pho, banh mi, and bia hoi on the corner of the Old Quarter. Restaurant TBD. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Night</div>
+              <div class="timeline-event">
+                <strong>Free Time <span class="tag tag-free">Free</span></strong>
+                <p>Wander the streets, or settle in early — long flights take a toll. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-2">
+          <div class="day-detail-header">
+            <div class="day-detail-date">02<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Hanoi Old Quarter</div>
+              <div class="day-detail-location">📍 Hanoi, Vietnam</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Hoan Kiem Lake &amp; Ngoc Son Temple <span class="tag tag-culture">Culture</span></strong>
+                <p>Morning walk around the lake. Placeholder — exact timing TBD. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Midday</div>
+              <div class="timeline-event">
+                <strong>Street Food Tour <span class="tag tag-food">Food</span></strong>
+                <p>Guided tour of local street food stalls. Bun cha, egg coffee, banh cuon. Operator TBD. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Ho Chi Minh Mausoleum <span class="tag tag-culture">Culture</span></strong>
+                <p>Visit the mausoleum complex and the surrounding gardens. [UNCONFIRMED]/p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Free Evening <span class="tag tag-free">Free</span></strong>
+                <p>Explore on your own — the beer street (Ta Hien) is nearby and lively. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-3">
+          <div class="day-detail-header">
+            <div class="day-detail-date">03<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Halong Bay Cruise — Day 1</div>
+              <div class="day-detail-location">📍 Ha Long Bay, Quảng Ninh</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Bus to Halong Bay <span class="tag tag-travel">Travel</span></strong>
+                <p>~3.5 hour journey from Hanoi. Depart early. [Bus operator TBD] [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Board Cruise &amp; Sail <span class="tag tag-culture">Culture</span></strong>
+                <p>Board the overnight junk cruise. Limestone karst views, kayaking, and caves. [Cruise TBD — targeting a mid-range option] [UNCONFIRMED] </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Sunset &amp; Group Dinner on Deck <span class="tag tag-food">Food</span></strong>
+                <p>Seafood dinner aboard the boat as the sun sets over the bay. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-4">
+          <div class="day-detail-header">
+            <div class="day-detail-date">04<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Halong Bay — Day 2</div>
+              <div class="day-detail-location">📍 Ha Long Bay → Hanoi</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Tai Chi on Deck, Breakfast <span class="tag tag-culture">Culture</span></strong>
+                <p>Optional sunrise tai chi, then breakfast as the boat heads back. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Return to Hanoi <span class="tag tag-travel">Travel</span></strong>
+                <p>Back to the city by afternoon. Free evening in Hanoi before the next leg.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-5">
+          <div class="day-detail-header">
+            <div class="day-detail-date">05<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Fly Hanoi → Hoi An</div>
+              <div class="day-detail-location">📍 Hanoi → Da Nang → Hoi An</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Flight to Da Nang <span class="tag tag-travel">Travel</span></strong>
+                <p>~1.5 hours. Transfer to Hoi An by taxi (~45 min). [Flights TBD — book together or independently] [UNCONFIRMED] </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Check In &amp; Explore Ancient Town <span class="tag tag-culture">Culture</span></strong>
+                <p>Stroll the UNESCO-listed old town. Lanterns, tailors, and cao lau noodles await. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-6">
+          <div class="day-detail-header">
+            <div class="day-detail-date">06<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Hoi An — Lanterns &amp; Cooking</div>
+              <div class="day-detail-location">📍 Hội An Ancient Town</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Cooking Class <span class="tag tag-food">Food</span></strong>
+                <p>Group cooking class — market trip + make your own banh xeo and white rose dumplings. [Operator TBD] [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Beach at An Bang <span class="tag tag-free">Free</span></strong>
+                <p>4km from town. Easy motorbike or bicycle ride. Free afternoon to relax. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Lantern Release on the Thu Bon River <span class="tag tag-culture">Culture</span></strong>
+                <p>The signature Hoi An evening — release paper lanterns on the river at dusk. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="vn-day-7">
+          <div class="day-detail-header">
+            <div class="day-detail-date">07<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Fly to Ho Chi Minh City</div>
+              <div class="day-detail-location">📍 Da Nang → Ho Chi Minh City</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Flight to HCMC <span class="tag tag-travel">Travel</span></strong>
+                <p>~1 hour flight. Check in to Saigon hotel. [Hotel TBD — targeting the District 1 area] [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>War Remnants Museum <span class="tag tag-culture">Culture</span></strong>
+                <p>Important and sobering. Worth the time. Regroup afterward for coffee. [UNCONFIRMED] </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Rooftop Dinner &amp; Bui Vien Street <span class="tag tag-food">Food</span></strong>
+                <p>Farewell Vietnam dinner. Then, optional: the chaos of Bui Vien walking street. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAPAN TAB -->
+  <div class="tab-content" id="tab-japan">
+    <div class="itinerary-grid">
+      <div class="day-nav" id="jp-day-nav">
+        <div class="day-nav-item active" onclick="switchDay('jp', 8)">
+          <div class="day-num">Day 8</div>
+          <div class="day-name">Arrival — Tokyo</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 9)">
+          <div class="day-num">Day 9</div>
+          <div class="day-name">Tokyo — Shibuya &amp; Shinjuku</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 10)">
+          <div class="day-num">Day 10</div>
+          <div class="day-name">Tokyo — Asakusa &amp; Akihabara</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 11)">
+          <div class="day-num">Day 11</div>
+          <div class="day-name">Day Trip: Nikko or Hakone</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 12)">
+          <div class="day-num">Day 12</div>
+          <div class="day-name">Shinkansen to Kyoto</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 13)">
+          <div class="day-num">Day 13</div>
+          <div class="day-name">Kyoto — Temples &amp; Fushimi</div>
+        </div>
+        <div class="day-nav-item" onclick="switchDay('jp', 14)">
+          <div class="day-num">Day 14</div>
+          <div class="day-name">Osaka &amp; Departure</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="day-detail active" id="jp-day-8">
+          <div class="day-detail-header">
+            <div class="day-detail-date">08<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Arrive in Tokyo</div>
+              <div class="day-detail-location">📍 Narita / Haneda → Shinjuku</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Arrival</div>
+              <div class="timeline-event">
+                <strong>Land &amp; Transfer <span class="tag tag-travel">Travel</span></strong>
+                <p>Narita Express or Limousine Bus to the hotel. [Hotel TBD — targeting Shinjuku or Shibuya area] [UNCONFIRMED] </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Ramen &amp; Wander <span class="tag tag-food">Food</span></strong>
+                <p>First dinner in Japan — a bowl of proper Tokyo ramen. Then explore the neon streets. [UNCONFIRMED] </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-9">
+          <div class="day-detail-header">
+            <div class="day-detail-date">09<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Shibuya &amp; Shinjuku</div>
+              <div class="day-detail-location">📍 Tokyo, Japan</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Shibuya Crossing &amp; Harajuku <span class="tag tag-culture">Culture</span></strong>
+                <p>The crossing at rush hour, Meiji Shrine, Takeshita Street. Classic Tokyo morning. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Shinjuku — Omoide Yokocho <span class="tag tag-food">Food</span></strong>
+                <p>"Memory Lane" — tiny yakitori stalls, smoke, and cold Sapporo. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Tokyo Skyline from Shinjuku <span class="tag tag-free">Free</span></strong>
+                <p>Tokyo Metropolitan Government Building offers free observation deck views. [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-10">
+          <div class="day-detail-header">
+            <div class="day-detail-date">10<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Asakusa &amp; Akihabara</div>
+              <div class="day-detail-location">📍 East Tokyo</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Senso-ji Temple <span class="tag tag-culture">Culture</span></strong>
+                <p>Tokyo's oldest temple. Arrive early to beat the crowds. Nakamise shopping street adjacent.[UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Akihabara Electric Town <span class="tag tag-free">Free</span></strong>
+                <p>Anime, electronics, maid cafes — the full experience. Optional for those less into it.[UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Group Omakase or Izakaya <span class="tag tag-food">Food</span></strong>
+                <p>[Restaurant TBD — targeting a group omakase or lively izakaya for the full experience] [UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-11">
+          <div class="day-detail-header">
+            <div class="day-detail-date">11<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Day Trip — Nikko or Hakone</div>
+              <div class="day-detail-location">📍 Outside Tokyo (TBD)</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">All Day</div>
+              <div class="timeline-event">
+                <strong>Day Trip TBD <span class="tag tag-culture">Culture</span></strong>
+                <p>Nikko (ornate shrines + waterfalls) or Hakone (Mt Fuji views + onsen) — group vote pending. ~2 hrs each way.[UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-12">
+          <div class="day-detail-header">
+            <div class="day-detail-date">12<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Shinkansen to Kyoto</div>
+              <div class="day-detail-location">📍 Tokyo → Kyoto</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Bullet Train to Kyoto <span class="tag tag-travel">Travel</span></strong>
+                <p>~2h15m on the Nozomi Shinkansen. Window seat views of Mt Fuji if clear.[UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Arashiyama Bamboo Grove <span class="tag tag-culture">Culture</span></strong>
+                <p>Go in the afternoon to avoid the worst of the morning crowds. Monkey park optional.[UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Pontocho Alley for Dinner <span class="tag tag-food">Food</span></strong>
+                <p>Narrow lantern-lit alley lined with kaiseki restaurants. [Booking TBD][UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-13">
+          <div class="day-detail-header">
+            <div class="day-detail-date">13<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Kyoto — Temples &amp; Fushimi Inari</div>
+              <div class="day-detail-location">📍 Kyoto, Japan</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Early AM</div>
+              <div class="timeline-event">
+                <strong>Fushimi Inari at Sunrise <span class="tag tag-culture">Culture</span></strong>
+                <p>The thousand torii gates — go at 6am to have it almost to yourself. Worth every early alarm [UNCONFIRMED].</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Midday</div>
+              <div class="timeline-event">
+                <strong>Kinkaku-ji (Golden Pavilion) <span class="tag tag-culture">Culture</span></strong>
+                <p>The iconic gold-leaf temple reflected in its mirror pond. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Gion District &amp; Maiko Spotting <span class="tag tag-free">Free</span></strong>
+                <p>Wander the historic Gion geisha district. Keep eyes open on Hanamikoji Street at dusk.[UNCONFIRMED]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="day-detail" id="jp-day-14">
+          <div class="day-detail-header">
+            <div class="day-detail-date">14<small>Placeholder</small></div>
+            <div>
+              <div class="day-detail-title">Osaka &amp; Departures</div>
+              <div class="day-detail-location">📍 Osaka, Japan</div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-time">Morning</div>
+              <div class="timeline-event">
+                <strong>Osaka — Dotonbori &amp; Street Food <span class="tag tag-food">Food</span></strong>
+                <p>30 min from Kyoto. Takoyaki, okonomiyaki, and the neon-lit Dotonbori canal. [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Afternoon</div>
+              <div class="timeline-event">
+                <strong>Osaka Castle <span class="tag tag-culture">Culture</span></strong>
+                <p>Optional visit before heading to the airport. [Flights TBD] [UNCONFIRMED]</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-time">Evening</div>
+              <div class="timeline-event">
+                <strong>Fly Home <span class="tag tag-travel">Travel</span></strong>
+                <p>Depart from Kansai International Airport (KIX). Safe travels 👋</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- MAPS -->
+<section class="maps-section" id="maps">
+  <div class="section-label">Where We're Going</div>
+  <h2 class="section-title">The Maps</h2>
+  <p class="section-intro">A geographic overview of each country leg — key cities, clusters, and how we move between them.</p>
+
+  <div class="maps-grid">
+    <div class="map-card">
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps/embed?pb=!1m56!1m8!1m3!1d7888791.254744316!2d105.2!3d16.0!3m2!1i1024!2i768!4f13.1!4m45!3e0!4m5!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2sHanoi%2C%20Vietnam!3m2!1d21.0277644!2d105.8341598!4m5!1s0x316936b0dbe5c6a7%3A0x8f2ede44e7e37f98!2sHa%20Long%20Bay%2C%20Qu%E1%BA%A3ng%20Ninh%2C%20Vietnam!3m2!1d20.9100634!2d107.1839088!4m5!1s0x31421741c5765fe3%3A0x37f8d3e0a5a3a8e4!2sHoi%20An%2C%20Qu%E1%BA%A3ng%20Nam%2C%20Vietnam!3m2!1d15.8800717!2d108.338006!4m5!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%2C%20Vietnam!3m2!1d10.8230989!2d106.6296638!5e0!3m2!1sen!2sus!4v1700000000000"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <div class="map-card-body">
+        <div class="map-card-title">🇻🇳 Vietnam Route</div>
+        <p class="map-card-desc">North to South — following Vietnam's long coastline from the misty mountains of Hanoi to the bustle of Saigon.</p>
+        <div class="map-pins">
+          <span class="map-pin">Hanoi</span>
+          <span class="map-pin">Ha Long Bay</span>
+          <span class="map-pin">Hoi An</span>
+          <span class="map-pin">Ho Chi Minh City</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card">
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps/embed?pb=!1m50!1m8!1m3!1d6699052.254744316!2d136.0!3d35.5!3m2!1i1024!2i768!4f13.1!4m39!3e0!4m5!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!3m2!1d35.6761919!2d139.6503106!4m5!1s0x6001a8d6cd3cc3f1%3A0xd63d3490a5e08c4!2sKyoto%2C%20Japan!3m2!1d35.0116363!2d135.7680294!4m5!1s0x6000e8a5ab43cc5b%3A0x4cca0ae0c770854c!2sOsaka%2C%20Japan!3m2!1d34.6937378!2d135.5021651!5e0!3m2!1sen!2sus!4v1700000000001"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <div class="map-card-body">
+        <div class="map-card-title">🇯🇵 Japan Route</div>
+        <p class="map-card-desc">The classic Kansai corridor — starting in the electric energy of Tokyo, then the bullet train south through Kyoto to Osaka.</p>
+        <div class="map-pins">
+          <span class="map-pin">Tokyo</span>
+          <span class="map-pin">Nikko or Hakone</span>
+          <span class="map-pin">Kyoto</span>
+          <span class="map-pin">Osaka</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- RSVP -->
+<section class="rsvp-section" id="rsvp">
+  <div class="rsvp-layout">
+    <div class="rsvp-aside">
+      <div>
+        <div class="section-label">Count Me In</div>
+        <h2 class="section-title">RSVP</h2>
+        <p class="section-intro">Let us know if you're in for each leg of the trip — or the whole thing. No commitment yet, just a headcount so we can start planning in earnest.</p>
+      </div>
+      <div class="rsvp-aside-block">
+        <h4>Deadline</h4>
+        <p>Please RSVP by February 13, 2027 (Sunday) so we can lock in group rates for accommodation, restaurants, and tours.</p>
+      </div>
+      <div class="rsvp-aside-block">
+        <h4>Questions?</h4>
+        <p>Reach out to Jenny B at jennybslam@gmail.com with any questions about the trip before RSVPing.</p>
+      </div>
+      <div class="rsvp-aside-block">
+        <h4>What Comes Next</h4>
+        <p>Once we have a steady headcount, we'll share a budget breakdown, finalize dates for events, and start booking. More detail to follow. Stay posted! </p>
+      </div>
+    </div>
+
+    <div>
+      <div class="rsvp-form-card" id="rsvp-form-container">
+
+        <!-- Form-level error banner (shown on network/Formspree errors) -->
+        <div class="form-error-banner" id="form-error-banner" role="alert"></div>
+
+        <div class="form-field">
+          <label for="rsvp-name">Your Name</label>
+          <input type="text" id="rsvp-name" name="name" placeholder="First and last name" autocomplete="name">
+          <span class="field-error" id="err-name"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="rsvp-email">Email</label>
+          <input type="email" id="rsvp-email" name="email" placeholder="you@email.com" autocomplete="email">
+          <span class="field-error" id="err-email"></span>
+        </div>
+
+        <div class="form-field">
+          <label>Are you attending?</label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" name="attending" id="att-yes" value="Yes — I'm In">
+              <label for="att-yes">✓ &nbsp;I'm In</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" name="attending" id="att-no" value="No — Can't Make It">
+              <label for="att-no">✗ &nbsp;Can't Make It</label>
+            </div>
+          </div>
+          <span class="field-error" id="err-attending"></span>
+        </div>
+
+        <div class="form-field" id="events-field" style="display:none;">
+          <label>Which legs are you joining?</label>
+          <div class="event-checkboxes">
+            <label class="check-option">
+              <input type="checkbox" name="legs" value="Vietnam">
+              <span>🇻🇳 Vietnam Leg <span class="check-sub">Hanoi → Ha Long Bay → Hoi An → Ho Chi Minh City</span></span>
+            </label>
+            <label class="check-option">
+              <input type="checkbox" name="legs" value="Japan">
+              <span>🇯🇵 Japan Leg <span class="check-sub">Tokyo → Kyoto → Osaka</span></span>
+            </label>
+            <label class="check-option">
+              <input type="checkbox" name="legs" value="Full Trip — Both Countries">
+              <span>🌏 Full Trip — Both Countries</span>
+            </label>
+          </div>
+        </div>
+
+        <button class="btn-submit" id="rsvp-submit-btn" onclick="submitRSVP()">Submit RSVP →</button>
+        <p class="form-note">This page is private — accessible only via this link. Your response will go directly to the trip organizer.</p>
+      </div>
+
+      <div class="rsvp-success" id="rsvp-success">
+        <div class="success-icon">✈️</div>
+        <h3>You're on the list.</h3>
+        <p>We'll be in touch with more details as plans come together.<br>Start dreaming about ramen and pho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wordmark">Vietnam &amp; Japan · 2027 · Private</div>
+  <div class="footer-note">Share this link only with invited travelers</div>
+</footer>
+
+<script>
+  // TAB SWITCHING
+  function switchTab(country) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    document.getElementById('tab-' + country).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // DAY SWITCHING
+  function switchDay(prefix, dayNum) {
+    const navId = prefix === 'vn' ? 'vn-day-nav' : 'jp-day-nav';
+    const nav = document.getElementById(navId);
+    nav.querySelectorAll('.day-nav-item').forEach(i => i.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    // hide all day details for this tab
+    const tabId = prefix === 'vn' ? 'tab-vietnam' : 'tab-japan';
+    document.getElementById(tabId).querySelectorAll('.day-detail').forEach(d => d.classList.remove('active'));
+    const detail = document.getElementById(prefix + '-day-' + dayNum);
+    if (detail) detail.classList.add('active');
+  }
+
+  // SHOW/HIDE EVENTS FIELD
+  document.querySelectorAll('input[name="attending"]').forEach(r => {
+    r.addEventListener('change', function() {
+      const eventsField = document.getElementById('events-field');
+      eventsField.style.display = this.value.startsWith('Yes') ? 'block' : 'none';
+    });
+  });
+
+  // RSVP SUBMIT — Formspree Vanilla JS (Ajax)
+  async function submitRSVP() {
+    const nameEl    = document.getElementById('rsvp-name');
+    const emailEl   = document.getElementById('rsvp-email');
+    const attending = document.querySelector('input[name="attending"]:checked');
+    const submitBtn = document.getElementById('rsvp-submit-btn');
+    const banner    = document.getElementById('form-error-banner');
+
+    // Clear previous errors
+    ['err-name', 'err-email', 'err-attending'].forEach(id => {
+      document.getElementById(id).textContent = '';
+    });
+    banner.style.display = 'none';
+    banner.textContent = '';
+    nameEl.removeAttribute('aria-invalid');
+    emailEl.removeAttribute('aria-invalid');
+
+    // Client-side validation
+    let valid = true;
+    if (!nameEl.value.trim()) {
+      document.getElementById('err-name').textContent = 'Please enter your name.';
+      nameEl.setAttribute('aria-invalid', 'true');
+      valid = false;
+    }
+    if (!emailEl.value.trim()) {
+      document.getElementById('err-email').textContent = 'Please enter your email.';
+      emailEl.setAttribute('aria-invalid', 'true');
+      valid = false;
+    }
+    if (!attending) {
+      document.getElementById('err-attending').textContent = 'Please choose attending or not attending.';
+      valid = false;
+    }
+    if (!valid) return;
+
+    // Collect selected legs (only relevant when attending)
+    const legs = Array.from(document.querySelectorAll('input[name="legs"]:checked'))
+                      .map(cb => cb.value);
+
+    // Build payload — readable field names for Formspree dashboard
+    const payload = {
+      name:      nameEl.value.trim(),
+      email:     emailEl.value.trim(),
+      attending: attending.value,
+      legs:      legs.length ? legs.join(', ') : 'N/A'
+    };
+
+    // Loading state
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<span class="spinner"></span>Sending…';
+
+    try {
+      const res = await fetch('https://formspree.io/f/xjgqkzyk', {
+        method:  'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body:    JSON.stringify(payload)
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        // Success — show the thank-you panel
+        document.getElementById('rsvp-form-container').style.display = 'none';
+        document.getElementById('rsvp-success').style.display = 'block';
+      } else {
+        // Formspree returned field-level or form-level errors
+        const errors = data.errors || [];
+        let handled = false;
+
+        errors.forEach(err => {
+          if (err.field === 'email') {
+            document.getElementById('err-email').textContent = err.message;
+            emailEl.setAttribute('aria-invalid', 'true');
+            handled = true;
+          } else if (err.field === 'name') {
+            document.getElementById('err-name').textContent = err.message;
+            nameEl.setAttribute('aria-invalid', 'true');
+            handled = true;
+          }
+        });
+
+        if (!handled) {
+          banner.textContent = data.error || 'Something went wrong. Please try again or email jennybslam@gmail.com directly.';
+          banner.style.display = 'block';
+        }
+
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit RSVP →';
+      }
+    } catch (err) {
+      // Network failure
+      banner.textContent = 'Could not reach the server. Check your connection and try again.';
+      banner.style.display = 'block';
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit RSVP →';
+    }
+  }
+</script>
+
+</body>
+</html>
